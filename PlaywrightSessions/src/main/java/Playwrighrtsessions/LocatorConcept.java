@@ -47,7 +47,7 @@ public class LocatorConcept {
 	    // if we want to click first element of the list of elements we have to write first();
 //	    loginBtn.first().click();
 	    
-	    //multiple element
+	    //this locator returns multiple elements   before id we write tag name (selector) 
 	    Locator countryOptions =page.locator("select#Form_submitForm_Country option");
 	    System.out.println(countryOptions.count());
 	    
@@ -65,7 +65,7 @@ public class LocatorConcept {
 //	        System.out.println(e);
 //	    }
 	   
-	    //This is Lambda with foeeach we will get all the values to ele var and print
+	    //This is Lambda with foreach we will get all the values to ele var and print
 	    optionsTextList.forEach(ele -> System.out.println(ele));
 
 	    
