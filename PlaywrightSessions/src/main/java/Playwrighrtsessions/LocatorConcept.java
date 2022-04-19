@@ -27,7 +27,7 @@ public class LocatorConcept {
 	    //page.navigate("https://academy.naveenautomationlabs.com/");
 
 	    
-	    //This is a method of creating custom lacator this featute not exist in Selenium 
+	    //This is a method of creating custom lacator this feature not exist in Selenium 
 	    // we capture the original text which is written on the element in UI
 	    
 	    //single element:
@@ -37,13 +37,14 @@ public class LocatorConcept {
 	    
 	    /*
 	     * This will give Error because there more than one  Login element so we 
-	     * have to write first() method to find Login buttton  at Login page 
+	     * have to write first() method to find Login button  at Login page 
 	     */
 	    // single element 
 //	    Locator loginBtn = page.locator("text = Login");
 //	    int totalLogins = loginBtn.count();
 //	    // it will give us the total number of elements with Login attiribute 
 //	    System.out.println(totalLogins);
+	    // if we want to click first element of the list of elements we have to write first();
 //	    loginBtn.first().click();
 	    
 	    //multiple element
