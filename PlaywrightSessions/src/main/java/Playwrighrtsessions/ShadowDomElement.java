@@ -19,6 +19,8 @@ public class ShadowDomElement {
 		 
 		 Page page =browser.newPage();
 		 page.navigate("https://books-pwakit.appspot.com/"); 
+		 
+		 //This app has got  Shadow DOM that is why we have to start from root to locate input element
 		 page.locator("book-app[apptitle='BOOKS'] #input").fill("Testing");
 				 
 				 
