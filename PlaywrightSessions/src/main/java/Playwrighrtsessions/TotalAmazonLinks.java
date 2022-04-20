@@ -19,6 +19,9 @@ public class TotalAmazonLinks {
 	 List<String> amazonLinks = page.locator ("a:has-text('Amazon')").allInnerTexts();
 	 amazonLinks.stream().forEach(e-> System.out.println(e));
 	 
+	 //xpath going parent to child=> > playwright.$("//a [@class='action-button']/span")
+	 //css going parent select dropdown to option => playwright.$("select#Form_submitForm_Country: has (option [value='India'])")
+	 
 
 }
 }
