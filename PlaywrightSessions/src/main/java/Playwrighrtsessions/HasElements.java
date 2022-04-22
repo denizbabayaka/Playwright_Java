@@ -32,6 +32,8 @@ public class HasElements {
 
       // parent to child has method =>playwright.inspect("div.navFooterLinkCol:has(a[href='https://www.amazon.jobs'])")
 
+      // if text of element changes in the future we can use comma  inside locator 
+      // playwright.$("span:has-text('SignIn'), span:has-text('LogIn')")
 
 
 
