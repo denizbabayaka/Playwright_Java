@@ -1,5 +1,7 @@
 package Playwrighrtsessions;
 
+import java.nio.file.AccessDeniedException;
+
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Locator;
@@ -19,6 +21,7 @@ public class XpathUnion {
        Locator login=page.locator("//span[text()='signin'] | //span [text()='login']");
        System.out.println(login.textContent());
        login.click();
+       
        
        
        
