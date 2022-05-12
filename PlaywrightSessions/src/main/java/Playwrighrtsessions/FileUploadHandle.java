@@ -28,7 +28,8 @@ public class FileUploadHandle{
                 new Path[] {
                 		 Paths.get("applogin.json"), 
                 		 Paths.get("trace.zip")});
-        
+        Thread.sleep (3000);
+        page.setInputFiles ("input#filesToUpload", new Path[0]);
        
 
 
